@@ -1,0 +1,10 @@
+<main>
+  <h2>Parent.compenent.html</h2>
+  <div>
+    dans la balise app-enfant utiliser le (NomDeOutput)= `MethodeInitiatiqueDeProprieteeParent($event)`
+    <app-enfant
+      (deEnfantAuParent)="MethodeInitiatiqueDeProprieteeParent($event)"
+    ></app-enfant>
+    <p>{{ messageRecuDeEnfant }}</p>
+  </div>
+</main>

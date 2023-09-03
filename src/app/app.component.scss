@@ -1,0 +1,20 @@
+main{
+    border-radius: 20px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    padding: 30px;
+    p{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
+.contener{
+    display: flex;
+    justify-content: space-between;
+}
+ol{
+    border: 2px solid black;
+    background: #00000063;
+    padding: 20px;
+    border-radius: 20px;
+}
